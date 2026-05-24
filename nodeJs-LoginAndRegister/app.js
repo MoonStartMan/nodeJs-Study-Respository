@@ -1,3 +1,12 @@
+/**
+ * @file app.js
+ * @description 基于Node.js原生http模块实现的用户登录注册系统，支持GET/POST请求处理、用户认证和静态文件服务
+ * @author MoonStartMan
+ * @date 2024
+ * 
+ * 基于Node.js原生http模块实现的用户登录注册系统，支持GET/POST请求处理、用户认证和静态文件服务的详细实现
+ */
+
 let http = require('http');
 
 let url = require('url');
